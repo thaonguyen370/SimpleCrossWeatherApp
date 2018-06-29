@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\bin\Debug\netstandard2.0\SimpleCrossWeatherApp.dll.config
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\bin\Debug\netstandard2.0\SimpleCrossWeatherApp.deps.json
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\bin\Debug\netstandard2.0\SimpleCrossWeatherApp.dll
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\bin\Debug\netstandard2.0\SimpleCrossWeatherApp.pdb
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.csproj.App.config
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.AssemblyInfo.cs
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.dll
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.pdb
+C:\Users\admin\source\repos\SimpleCrossWeatherApp\SimpleCrossWeatherApp\SimpleCrossWeatherApp\obj\Debug\netstandard2.0\SimpleCrossWeatherApp.csprojAssemblyReference.cache

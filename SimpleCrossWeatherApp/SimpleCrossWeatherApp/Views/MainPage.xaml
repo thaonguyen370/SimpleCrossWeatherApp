@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SimpleCrossWeatherApp"
+             x:Class="SimpleCrossWeatherApp.MainPage"
+             BackgroundColor="Aqua"
+             xmlns:weatherVm="clr-namespace:SimpleCrossWeatherApp.ViewModels"
+>
+    <ContentPage.BindingContext>
+        <weatherVm:WeatherViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout Orientation="Vertical" Padding="10">
+        <StackLayout Orientation="Horizontal"  Spacing="10">
+            <Entry Placeholder="Tên thành phố" Text="{Binding City, Mode=TwoWay}" />
+            <Button Text="Seach" WidthRequest="60" HeightRequest="30" FontSize="10" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Tên thành phố: " HorizontalOptions="Start"/>
+            <Label Text="{Binding WeatherMainModel.name}" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Tên Quốc gia: " HorizontalOptions="Start"/>
+            <Label Text="{Binding WeatherMainModel.sys.country}" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout  Orientation="Vertical" Spacing="10">
+            <Image  Source="{Binding WeatherMainModel.weather[0].icon}" HorizontalOptions="Center"  WidthRequest="50" HeightRequest="50"/>
+            <Label Text="{Binding WeatherMainModel.main.temp }" HorizontalOptions="Center"/>
+            <Label Text="{Binding WeatherMainModel.weather[0].description}" HorizontalOptions="Center"/>
+          
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HeightRequest="100">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                <Image Source="am.png" WidthRequest="40" HeightRequest="40" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
+                    <Label Text="{Binding WeatherMainModel.main.humidity}"  HorizontalOptions="FillAndExpand"/>
+                    <Label Text="%" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+              
+            </StackLayout>
+
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                <Image Source="may1.png" WidthRequest="40"  HeightRequest="40"  HorizontalOptions="Center"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
+                    <Label Text="{Binding WeatherMainModel.clouds.all}"  HorizontalOptions="FillAndExpand"/>
+                    <Label Text="%" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+               
+            </StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Orientation="Vertical">
+                <Image Source="gio1.png" WidthRequest="40"  HeightRequest="40"  HorizontalOptions="Center"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
+                    <Label Text="{Binding  WeatherMainModel.wind.speed}"    HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Km/h" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="{Binding WeatherMainModel.dt}" HorizontalOptions="Center"/>
+            <Button Text="các ngày tiếp theo" />
+        </StackLayout>
+       
+
+    </StackLayout>
+  
+
+
+
+</ContentPage>
